@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insta</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="nav navPills">
+    <li class="nav-item imagenNav">
+      <img src="https://cdn.icon-icons.com/icons2/1898/PNG/512/pokemon_121114.png" class="pokeballNav">
+    </li>
+    <li class="nav navTexto">
+      <strong>INSTAGRAM</strong>
+    </li>
+
+    <button type="button" class="btn btn-success crearPost" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      Nuevo Post
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Create a new post</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card">
+              <div class="card-header">
+                Caption:
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <footer class="blockquote-footer">Add the caption of your post here</footer>
+                </blockquote>
+              </div>
+            </div>
+            <img src="https://cdn-icons-png.freepik.com/256/1752/1752686.png?semt=ais_hybrid" class="Evee">
+            <img src="https://stickershop.line-scdn.net/stickershop/v1/product/32114/LINEStorePC/main.png?v=1" class="pikachuGordo">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+        aria-expanded="false"><img src="https://www.pokemon-zone.com/assets/uploads/2024/09/pikachu-icon.png" class="pikachu"></a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separadoLink" href="#">Log Out</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul class="nav navOpciones" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <img id="charizard" src="https://www.pokencyclopedia.info/sprites/spin-off/ico_shuffle/ico_shuffle_006.png"
+        class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+        aria-controls="home" aria-selected="true"></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <img id="chicorita" src="https://cdn-icons-png.freepik.com/256/1752/1752670.png?semt=ais_hybrid" class="nav-link"
+        id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+        aria-selected="false"></button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://wallpapers.com/images/featured/fondos-de-pantalla-de-pokemon-geniales-qmcgnudvclph45ia.jpg" class="img-fluid w-100" alt=""></div>
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.blogs.es/c32c08/ash-pikachu-1-/500_333.jpeg" class="img-fluid w-100" alt=""></div>
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://hips.hearstapps.com/hmg-prod/images/pokemon-original-series-1671869058.jpg?resize=980:*" class="img-fluid w-100" alt=""></div>
+          </div>
+          <div class="row">
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://easycdn.es/1/imagenes/pokemon-unite_342464_pn2.jpg" class="img-fluid w-100" alt=""></div>
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://www.mundodeportivo.com/alfabeta/hero/2024/08/estos-son-los-mejores-momentos-de-pikachu-en-el-anime.jpg?width=768&aspect_ratio=16:9&format=nowebp" class="img-fluid w-100" alt=""></div>
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24458108/captain_pikachu.jpg?quality=90&strip=all&crop=7.8125,0,84.375,100" class="img-fluid w-100" alt=""></div>
+          </div>
+          <div class="row">
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://lafrikileria.com/blog/wp-content/uploads/2024/01/curiosidades-pokemon-640x506.jpg" class="img-fluid w-100" alt=""></div>
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://www.mundodeportivo.com/alfabeta/hero/2019/08/pikachu-pokemon-triste.jpg?width=768&aspect_ratio=16:9&format=nowebp" class="img-fluid w-100" alt=""></div>
+              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://gizmodo.com/app/uploads/2019/11/dkh2deajqjeqef5ax0cv.jpg" class="img-fluid w-100" alt=""></div>
+          </div>
+      </div>
+
+      <div class="tab-pane fade overflow-hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row my-4">
+            <div class="col-6 mx-auto border rounded p-0">
+                <div class="d-flex p-2">
+                    <div class="w-100 fs-4">My Friend!</div>
+                    <small class="align-bottom">08/26</small>
+                </div>
+                <img style="object-fit: cover;" src="https://i.pinimg.com/originals/29/48/9e/29489e7a71058b783aa5a68a6ceb064e.jpg" class="img-fluid w-100 col-12" alt=""/>
+                <div class="p-2">
+                    <strong>9999 Likes</strong>
+                    <p>With my friend Evee having fun</p>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-6 mx-auto border rounded p-0">
+                <div class="d-flex p-2">
+                    <div class="w-100 fs-4">Sharing the Pokeball with my friend!</div>
+                    <small>25/07</small>
+                </div>
+                <img style="object-fit: cover;" src="https://i.pinimg.com/736x/24/e1/f2/24e1f22569e3ce560516fd855ce240c7.jpg" class="img-fluid w-100 col-12" alt=""/>
+                <div class="p-2">
+                    <strong>66666 Likes</strong>
+                    <p>We sleep in the same place!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-6 mx-auto border rounded p-0">
+                <div class="d-flex p-2">
+                    <div class="w-100 fs-4">This Evees looks like me!!!!</div>
+                    <small>25/08</small>
+                </div>
+                <img style="object-fit: cover;" src="https://imgcdn.stablediffusionweb.com/2024/5/26/75dcbe51-fb58-477d-90c4-92c2710a2fea.jpg" class="img-fluid w-100 col-12" alt=""/>
+                <div class="p-2">
+                    <strong>77777 Likes</strong>
+                    <p>I found some Evees thas looks like me!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

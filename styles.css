@@ -1,0 +1,67 @@
+body{
+    margin: 5px;
+}
+
+.pokeballNav{
+    width: 40px;
+    height: 40px;
+}
+
+.navOpciones{
+    display: flex;
+    justify-content: center;
+}
+
+#charizard{
+    width: 65px;
+    height: 65px;
+}
+
+#chicorita{
+    width: 65px;
+    height: 65px;
+}
+
+.separadoLink{
+    color: red;
+}
+
+.navPills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.crearPost, .dropdown{
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.imagenNav, .navTexto{
+    margin-right: 10px;
+}
+
+.navTexto{
+    width: 83%;
+}
+
+.pikachu{
+    width: 40px;
+    height: 40px;
+}
+
+.Evee, .pikachuGordo{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+.imagen{
+    width: 440px;
+    height: 320px;
+    
+}
+
